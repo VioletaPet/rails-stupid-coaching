@@ -1,0 +1,25 @@
+.question {
+  border-left: 5px solid lightgray;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#displayedquestion {
+  margin-bottom: 0px;
+}
+
+.answer {
+  border-left: 5px solid lightgray;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 70px;
+  background-color: #FFFFE1;
+  margin-bottom: 10px;
+}
+
+#displayedanswer {
+  margin-bottom: 0px;
+}

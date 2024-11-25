@@ -1,0 +1,13 @@
+<%# display question as well as answer %>
+<div class="chat-container col-4">
+  <h1>Stupid Coaching</h1>
+  <div class="question">
+    <p id="displayedquestion"><%= @question %></p>
+    <p><em>- You</em></p>
+  </div>
+  <div class="answer">
+    <p id="displayedanswer"><%= @answer %></p>
+    <p><em>- Your coach</em></p>
+  </div>
+  <%= link_to 'Ask another question', ask_path(question: @question) %>
+</div>

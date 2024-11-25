@@ -1,0 +1,11 @@
+<div class="col-4" id="formblock">
+  <h1>Stupid Coaching</h1>
+  <form action="/answer" data-turbo="false" method="get">
+    <label for="question">Ask your coach anything:</label>
+    <div class="d-flex">
+      <input type="text" class="form-control" name="question" id="question" placeholder="Write your questions here" value="<%= params[:question] %>">
+      <button type="submit" class="btn btn-primary" id="button">Ask!</button>
+    </div>
+  </form>
+  <%= link_to 'See answer', answer_path %>
+</div>
